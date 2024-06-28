@@ -1,0 +1,109 @@
+.mainContainer {
+  width: 100%;
+}
+.header {
+  width: 300px;
+  margin: 100px auto;
+}
+.mainContainer > div {
+  text-align: center;
+}
+.colorsWrapper {
+  display: flex;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+button {
+  border: 0;
+  padding: 10px 20px;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+}
+
+.colorDivWrapper {
+  display: flex;
+  width: 100%;
+  height: 300px;
+
+  justify-content: center;
+  gap: 30px;
+}
+
+.colorDiv {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+/* task 2 */
+
+.task2Container {
+  width: 100%;
+
+  /* margin-top: 5px; */
+}
+
+.container {
+  width: 400px;
+  /* height: 200px; */
+
+  margin: 0 auto;
+  background-color: grey;
+
+  border: 1px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 40px;
+}
+
+.divTask2 {
+  width: 300px;
+  height: 300px;
+  background-color: lightblue;
+
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* task 3 */
+
+.bonusTaskContainer {
+  margin-top: 50px;
+  width: 100%;
+  background-color: bisque;
+  border: 1px solid black;
+  /* height: 200px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jokeWrapper {
+  margin: 20px 20px;
+
+  /* background-color: gainsboro; */
+  /* width: 200px; */
+  text-align: center;
+
+  border: 1px solid black;
+  /* height: 200px; */
+
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.likesContainer {
+  align-self: flex-end;
+  text-align: left;
+}
